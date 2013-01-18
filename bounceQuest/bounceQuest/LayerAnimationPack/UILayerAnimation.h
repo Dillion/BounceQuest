@@ -27,6 +27,10 @@
  
  */
 
+#import <QuartzCore/QuartzCore.h>
+#import "easing.h"
+#import "UITransformableBezierPath.h"
+#import "UIColor+CrossFade.h"
 
 typedef enum {
     
@@ -80,10 +84,6 @@ typedef enum {
     kSublayerTransform,
     kZPosition,
 } AnimatedPropertyKeys;
-
-#import "easing.h"
-#import "UITransformableBezierPath.h"
-#import "UIColor+CrossFade.h"
 
 typedef struct {
     float x;

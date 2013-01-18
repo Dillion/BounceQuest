@@ -22,6 +22,7 @@
 		4D6A64B716A8FA1A00A89D11 /* NonOpaquePathRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A64AE16A8FA1A00A89D11 /* NonOpaquePathRepresentation.m */; };
 		4D6A64B816A8FA1A00A89D11 /* UIColor+CrossFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A64B016A8FA1A00A89D11 /* UIColor+CrossFade.m */; };
 		4D6A64B916A8FA1A00A89D11 /* UITransformableBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A64B316A8FA1A00A89D11 /* UITransformableBezierPath.m */; };
+		4DFC0DEB16AA0CB000BB7902 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFC0DEA16AA0CB000BB7902 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		4D6A64B116A8FA1A00A89D11 /* UILayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILayerAnimation.h; sourceTree = "<group>"; };
 		4D6A64B216A8FA1A00A89D11 /* UITransformableBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITransformableBezierPath.h; sourceTree = "<group>"; };
 		4D6A64B316A8FA1A00A89D11 /* UITransformableBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITransformableBezierPath.m; sourceTree = "<group>"; };
+		4DFC0DEA16AA0CB000BB7902 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DFC0DEB16AA0CB000BB7902 /* QuartzCore.framework in Frameworks */,
 				4D6A646E16A8F77600A89D11 /* UIKit.framework in Frameworks */,
 				4D6A647016A8F77600A89D11 /* Foundation.framework in Frameworks */,
 				4D6A647216A8F77600A89D11 /* CoreGraphics.framework in Frameworks */,
@@ -70,6 +73,7 @@
 		4D6A645E16A8F77600A89D11 = {
 			isa = PBXGroup;
 			children = (
+				4DFC0DEA16AA0CB000BB7902 /* QuartzCore.framework */,
 				4D6A647316A8F77600A89D11 /* bounceQuest */,
 				4D6A646C16A8F77600A89D11 /* Frameworks */,
 				4D6A646A16A8F77600A89D11 /* Products */,
@@ -319,6 +323,7 @@
 				4D6A648916A8F77600A89D11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -27,6 +27,7 @@
  
  */
 
+#import "CALayer+Animation.h"
 #import "CAShapeLayer+Animation.h"
 
 @implementation CAShapeLayer (Animation)
