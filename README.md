@@ -2,20 +2,27 @@
   
 Yet to find an easing curve that feels _right_, for many animations, despite the massive list of resources on the subject. The library is a journal to the quest for that elusive curve, and tools crafted or found along the way  
   
+###Approaches  
+__Modelled on mathematical functions, often Bézier curves__ http://en.wikipedia.org/wiki/Bézier_curve  
+__Modelled on spring physics, e.g. Hooke's law__ http://en.wikipedia.org/wiki/Hooke's_law  
+ 
+`function` denotes function based approaches, and `physics` denotes physics based approaches for the rest of this document  
+  
 ###List of resources  
   
 ####Articles
-__Jeff Lamarche__ http://iphonedevelopment.blogspot.sg/2010/12/more-animation-curves-than-you-can.html  
-__Matt Gallagher__ http://www.cocoawithlove.com/2008/09/parametric-acceleration-curves-in-core.html  
-__Robert Penner__ http://www.robertpenner.com/easing/  
-__Soroush Khanlou__ http://khanlou.com/2012/01/cakeyframeanimation-make-it-bounce/  
-__Cocoanetics__ https://www.cocoanetics.com/2012/06/lets-bounce/  
+__Jeff Lamarche__ http://iphonedevelopment.blogspot.sg/2010/12/more-animation-curves-than-you-can.html `function`  
+__Matt Gallagher__ http://www.cocoawithlove.com/2008/09/parametric-acceleration-curves-in-core.html `function`  
+__Robert Penner__ http://www.robertpenner.com/easing/ `function`  
+__Soroush Khanlou__ http://khanlou.com/2012/01/cakeyframeanimation-make-it-bounce/ `physics`  
+__Cocoanetics__ https://www.cocoanetics.com/2012/06/lets-bounce/ `function` `physics`  
   
-####Visualizers
-__Andrey Sitnik__ http://easings.net/  
-__Robert Penner__ http://gizma.com/easing/  
-__Timothee Groleau__ http://www.timotheegroleau.com/Flash/experiments/easing_function_generator.htm  
-
+####Visualizers / Demos
+__Andrey Sitnik__ http://easings.net/ `function`  
+__Robert Penner__ http://gizma.com/easing/ `function`  
+__Timothee Groleau__ http://www.timotheegroleau.com/Flash/experiments/easing_function_generator.htm `function`  
+__Jonathan Willing__ http://appjon.com/drop/Springs-RAHeUq0m8W.mp4 `physics`  
+  
 --
 
 ###Source Breakdown
